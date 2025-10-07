@@ -1,0 +1,87 @@
+/* App.css */
+body {
+  background: #f4f7fc; /* [cite: 291] */
+  font-family: Arial, sans-serif; /* [cite: 291] */
+}
+
+.form-container {
+  max-width: 500px; /* [cite: 292] */
+  background: #fff; /* [cite: 292] */
+  margin: 40px auto; /* [cite: 292] */
+  padding: 20px 30px; /* [cite: 292] */
+  border-radius: 12px; /* [cite: 292] */
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* [cite: 293] */
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+label {
+  display: block; /* [cite: 294] */
+  margin-top: 10px; /* [cite: 294] */
+  font-weight: 600; /* [cite: 294] */
+  color: #333; /* [cite: 294] */
+}
+
+input[type='text'],
+input[type='radio'],
+input[type='checkbox'],
+select {
+  width: 100%; /* [cite: 295] */
+  padding: 8px; /* [cite: 295] */
+  margin-top: 5px; /* [cite: 295] */
+  border-radius: 6px; /* [cite: 295] */
+  border: 1px solid #ccc; /* [cite: 295] */
+  box-sizing: border-box;
+}
+
+.radio-group,
+.checkbox-group {
+  display: flex; /* [cite: 296] */
+  gap: 12px; /* [cite: 296] */
+  margin-top: 8px; /* [cite: 296] */
+  align-items: center;
+}
+
+.radio-group label,
+.checkbox-group label {
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.radio-group input,
+.checkbox-group input {
+  width: auto;
+}
+
+button {
+  width: 100%; /* [cite: 297] */
+  padding: 10px; /* [cite: 297] */
+  background: #007bff; /* [cite: 297] */
+  color: #fff; /* [cite: 297] */
+  border: none; /* [cite: 297] */
+  border-radius: 8px; /* [cite: 297] */
+  margin-top: 20px; /* [cite: 297] */
+  cursor: pointer; /* [cite: 298] */
+  font-size: 16px;
+  font-weight: bold;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+.msg {
+  text-align: center; /* [cite: 299] */
+  font-weight: 600; /* [cite: 299] */
+  margin-bottom: 12px; /* [cite: 299] */
+  padding: 10px;
+  border-radius: 6px;
+  color: #155724;
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+}
